@@ -23,7 +23,7 @@ The project implements a multi-stage **Medallion Architecture** to separate raw 
   (Star schema modeling, business aggregation tables)<br>
            ▼<br>
  [ Visualization ]<br>
-![NYC Taxi Dashboard](/screenshots/meta_data_pipeline.PNG)
+![NYC Taxi Dashboard](/screenshots/metadata_pipeline.PNG)
  Power BI Performance Dashboard
 
 ## Dashboard Highlights & Analytics
