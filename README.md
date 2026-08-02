@@ -6,6 +6,8 @@ A cloud data engineering and analytics solution built in **Microsoft Fabric**. T
 ## Architecture & Data Flow
 The project implements a multi-stage **Medallion Architecture** to separate raw data ingestion, transformation, staging, and high-performance reporting layers.
 
+![NYC Taxi Dashboard](/screenshots/stg_pipeline.PNG)
+
 [ NYC TLC Public Source ]<br>
            ▼<br>
  [ Bronze Layer ]<br>
@@ -21,6 +23,7 @@ The project implements a multi-stage **Medallion Architecture** to separate raw 
   (Star schema modeling, business aggregation tables)<br>
            ▼<br>
  [ Visualization ]<br>
+![NYC Taxi Dashboard](/screenshots/meta_data_pipeline.PNG)
  Power BI Performance Dashboard
 
 ## Dashboard Highlights & Analytics
