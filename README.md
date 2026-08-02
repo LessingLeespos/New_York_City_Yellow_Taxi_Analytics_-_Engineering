@@ -26,10 +26,10 @@ The project implements a multi-stage **Medallion Architecture** to separate raw 
 ## Dashboard Highlights & Analytics
 The New York City's Yellow Cab Metrics Performance Dashboard provides operational visibility across key revenue and volume metrics:
 
--Executive KPIs: Tracks aggregate volume (6.23M Total Passengers) and revenue ($210.89M Total Fare Amount).
--Payment Distribution: Visualizes volume trends by payment type, credit card dominant usage (~85.26%) alongside cash (~12.21%), chargebacks, and disputes.
--Geospatial & Borough Demand: Ranks passenger counts by origin and destination boroughs, isolating core corridors like Manhattan (5.48M pickups) and Queens (677K drop-offs).
--Date Range Filtering: Interactive temporal slicing across pickup windows.
+-Executive KPIs: Tracks aggregate volume (6.23M Total Passengers) and revenue ($210.89M Total Fare Amount).<br>
+-Payment Distribution: Visualizes volume trends by payment type, credit card dominant usage (~85.26%) alongside cash (~12.21%), chargebacks, and disputes.<br>
+-Geospatial & Borough Demand: Ranks passenger counts by origin and destination boroughs, isolating core corridors like Manhattan (5.48M pickups) and Queens (677K drop-offs).<br>
+-Date Range Filtering: Interactive temporal slicing across pickup windows.<br>
 
 High frequency temporal tracking data transformed urban transit by converting physical passenger movement into real-time geospatial telemetry, allowing platforms to dynamically rebalance supply, implement surge pricing, and minimize deadhead time. This algorithmic efficiency enabled app services to capture the market, outpace traditional street models, and expand mobility into historically underserved outer boroughs successfully capturing market share even amidst strict New York City regulatory hurdles and fleet caps.
 
