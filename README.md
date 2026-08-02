@@ -7,22 +7,18 @@ A cloud data engineering and analytics solution built in **Microsoft Fabric**. T
 The project implements a multi-stage **Medallion Architecture** to separate raw data ingestion, transformation, staging, and high-performance reporting layers.
 
 [ NYC TLC Public Source ]
-           │
            ▼
  [ Bronze Layer ]
  Dataflows Gen2 / Lakehouse (`lk_TaxiData`)
 (Raw ingestion & initial schema mapping)
-           │
            ▼
  [ Silver Layer ]
  Staging Pipelines (`pipeline_nyctaxi` / `df_processing_nyctaxi`)
  (Dynamic date checks, outlier cleanup via Stored Procedures)
-           │
            ▼
   [ Gold Layer ]
   Data Warehouse (`wh_NYCTaxi`) & Semantic Model (`sm_yellow_nyctaxi`)
   (Star schema modeling, business aggregation tables)
-           │
            ▼
  [ Visualization ]
  Power BI Performance Dashboard
